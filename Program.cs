@@ -22,8 +22,12 @@ class Program{
         string funcionarioAtual = "";
         string funcaoAtual = "";
         string permissao = "";
+        string colunaFuncionario = "FUNCIONARIO";
+        string colunaCargo = "CARGO";
+        string colunaNivel = "NÍVEL";
+        string colunaPermissao = "PERMISSÃO";
 
-        Console.WriteLine("FUNCIONÁRIO\tCARGO\t\t\tNÍVEL\t\tPERMISSÃO");
+        Console.WriteLine($"{colunaFuncionario.PadRight(12)}\t{colunaCargo.PadRight(16)}\t{colunaNivel.PadRight(8)}\t{colunaPermissao}");
         Console.Write("\n");
 
         int indice = 0;
