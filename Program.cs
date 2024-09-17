@@ -26,7 +26,7 @@ class Program{
         Console.WriteLine("FUNCIONÁRIO\tCARGO\t\t\tNÍVEL\t\tPERMISSÃO");
         Console.Write("\n");
 
-        int indice = 0; // Variável para manter o índice e sincronizar funcionário com função
+        int indice = 0;
 
         foreach(string funcionario in funcionarios){
 
